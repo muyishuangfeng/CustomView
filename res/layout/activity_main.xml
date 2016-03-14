@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.tianyu.customview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.tianyu.customview.CustomTitleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        custom:textTitle="9508"
+        custom:textTitleColor="#ff0000"
+        custom:textTitleSize="40sp" >
+    </com.tianyu.customview.CustomTitleView>
+
+</RelativeLayout>
